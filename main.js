@@ -10,7 +10,7 @@ function createTranslation() {
   const visible = 1;
   const website = 'https://www.himetal.com.sg/';
   const name = 'HiMetal Enterprise Pte Ltd';
-  const bio = 'HiMetal Enterprise specialises in supplying Stainless Steel products in Singapore. We supply a wide range of flat and long products to our valued customers for    '
+  const bio = 'HiMetal Enterprise specialises in supplying Stainless Steel products in Singapore. We supply a wide range of flat and long products to our valued customers.   '
   return `${id},${created_at},${visible},${website},${name},${bio}`;
 }
 function insertFromCsv() {
